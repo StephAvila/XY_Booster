@@ -1,0 +1,70 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 18 April, 2022 2:31 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.4
+WORDPRESS:	5.9.3
+PHP INFO:	7.3.30 | SAPI: apache2handler
+SERVER:		Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/7.3.30 mod_perl/2.0.11 Perl/v5.32.1 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 14.5MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+MYSQL DUMP ERROR 2
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	Shell mysql dump error. Change SQL Script to the "PHP Code" in the Duplicator > Settings > Packages.
+DETAILS:
+	mysqldump: Got error: 2002: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) when trying to connect
+/* Duplicator WordPress Timestamp: 2022-04-18 14:31:17*/
+/* DUPLICATOR_MYSQLDUMP_EOF */
+TRACE:
+	 1. class.pack.database.php : error (572)
+	 2. class.pack.database.php : mysqlDump (208)
+	 3. class.pack.php : build (1316)
+	 4. ctrl.package.php : runZipBuild (98)
+	 5. class-wp-hook.php : duplicator_package_build (307)
+	 6. class-wp-hook.php : apply_filters (331)
+	 7. plugin.php : do_action (474)
+	 8. admin-ajax.php : do_action (187)
+==================================================================================
+
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	Runtime error in DUP_Database::Build. Shell mysql dump error. Change SQL Script to the "PHP Code" in the Duplicator > Settings > Packages.
+DETAILS:
+	Exception: Exception: Shell mysql dump error. Change SQL Script to the "PHP Code" in the Duplicator > Settings > Packages. in /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-content/plugins/duplicator/classes/class.logging.php:284
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-content/plugins/duplicator/classes/package/class.pack.database.php(572): DUP_Log::error('Shell mysql dum...', 'mysqldump: Got ...', 1)
+#1 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-content/plugins/duplicator/classes/package/class.pack.database.php(208): DUP_Database->mysqlDump('/usr/local/mysq...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-content/plugins/duplicator/classes/package/class.pack.php(1316): DUP_Database->build(Object(DUP_Package), 1)
+#3 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-content/plugins/duplicator/ctrls/ctrl.package.php(98): DUP_Package->runZipBuild()
+#4 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-includes/class-wp-hook.php(307): duplicator_package_build('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/XY_Booster/wp-admin/admin-ajax.php(187): do_action('wp_ajax_duplica...')
+#8 {main}
+TRACE:
+	 1. class.pack.database.php : error (243)
+	 2. class.pack.php : build (1316)
+	 3. ctrl.package.php : runZipBuild (98)
+	 4. class-wp-hook.php : duplicator_package_build (307)
+	 5. class-wp-hook.php : apply_filters (331)
+	 6. plugin.php : do_action (474)
+	 7. admin-ajax.php : do_action (187)
+==================================================================================
+

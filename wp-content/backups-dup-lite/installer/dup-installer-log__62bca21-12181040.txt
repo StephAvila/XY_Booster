@@ -1,0 +1,439 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 06:13:01
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.33                                |7.3.30
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2022-04-12 18:10:40
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.4
+DB__________________: 5.7.37
+DB TABLES___________: 14
+DB ROWS_____________: 352
+DB FILE SIZE________: 1.78MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.30 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/7.3.30 mod_perl/2.0.11 Perl/v5.32.1
+DOC ROOT____________: "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/XY_Booster/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/20220412_xybooster_[HASH]_20220412181040_archive.zip"
+SIZE________________: 20.7MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/installer.php' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/20220412_xybooster_[HASH]_20220412181040_archive.zip' failed
+
+STEP-1 COMPLETE @ 06:13:02 - RUNTIME: 1.0156 sec.
+[PHP ERR][ISSUE] MSG:Directive 'track_errors' is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:13:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.21 -- Build Server: 5.7.37
+FILE SIZE:	dup-database__[HASH].sql (1.79MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	369
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_e_events: (9)
+wp_links: (0)
+wp_options: (157)
+wp_postmeta: (72)
+wp_posts: (21)
+wp_term_relationships: (2)
+wp_term_taxonomy: (2)
+wp_termmeta: (0)
+wp_terms: (2)
+wp_usermeta: (37)
+wp_users: (2)
+Removed '47' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3985 sec.
+STEP-2 COMPLETE @ 06:13:16 - RUNTIME: 0.4030 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:13:18
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "XY Booster"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/clicocom/public_html/sandbox/xybooster.com"
+path_new______________: "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+siteurl_______________: "http://localhost/XY_Booster"
+url_old_______________: "https://clico.com.mx/sandbox/xybooster.com"
+url_new_______________: "http://localhost/XY_Booster"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   157][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/clicocom/public_html/sandbox/xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  2:"\/home\/clicocom\/public_html\/sandbox\/xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  3:"%2Fhome%2Fclicocom%2Fpublic_html%2Fsandbox%2Fxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  4:"\home\clicocom\public_html\sandbox\xybooster.com" => "/Applications/XAMPP/xamppfiles/htdocs/XY_Booster"
+	SEARCH  5:"\\home\\clicocom\\public_html\\sandbox\\xybooster.com" => "\/Applications\/XAMPP\/xamppfiles\/htdocs\/XY_Booster"
+	SEARCH  6:"%5Chome%5Cclicocom%5Cpublic_html%5Csandbox%5Cxybooster.com" => "%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FXY_Booster"
+	SEARCH  7:"//clico.com.mx/sandbox/xybooster.com" ============> "//localhost/XY_Booster"
+	SEARCH  8:"\/\/clico.com.mx\/sandbox\/xybooster.com" ========> "\/\/localhost\/XY_Booster"
+	SEARCH  9:"%2F%2Fclico.com.mx%2Fsandbox%2Fxybooster.com" ====> "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 10:"//www.clico.com.mx/sandbox/xybooster.com" ========> "//localhost/XY_Booster"
+	SEARCH 11:"\/\/www.clico.com.mx\/sandbox\/xybooster.com" ====> "\/\/localhost\/XY_Booster"
+	SEARCH 12:"%2F%2Fwww.clico.com.mx%2Fsandbox%2Fxybooster.com" => "%2F%2Flocalhost%2FXY_Booster"
+	SEARCH 13:"https://localhost/XY_Booster" ====================> "http://localhost/XY_Booster"
+	SEARCH 14:"https:\/\/localhost\/XY_Booster" =================> "http:\/\/localhost\/XY_Booster"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FXY_Booster" ============> "http%3A%2F%2Flocalhost%2FXY_Booster"
+--------------------------------------
+SCANNED:	Tables:14 	|	 Rows:305 	|	 Cells:1635 
+UPDATED:	Tables:4 	|	 Rows:33 	|	 Cells:43 
+ERRORS:		0 
+RUNTIME:	0.040600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/XY_Booster/dup-installer/classes/class.s3.func.php|LINE:1223]
+
+STEP-3 COMPLETE @ 06:13:18 - RUNTIME: 0.0596 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

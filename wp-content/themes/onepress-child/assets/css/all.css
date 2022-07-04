@@ -1,0 +1,262 @@
+.words-us {
+    padding-top: 6rem;
+}
+
+.about3 {
+    width: 70%;
+    padding-left: 6rem;
+}
+
+.card-header.collapsed,
+.card-header {
+    background-color: transparent!important;
+    border: none !important;
+}
+
+.card {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid black !important;
+    box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, .07);
+}
+
+.text-talento {
+    height: 260px
+}
+
+.p-right {
+    padding-right: 5rem !important;
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.p-left {
+    padding-left: 4rem !important;
+}
+
+.cards-people {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    margin: 2rem 6rem;
+}
+
+.cards-plataforma {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subcard {
+    background-color: #efefef;
+    margin: 2rem 1rem;
+    padding: 3rem;
+}
+
+.balanza {
+    margin: 4rem 0rem;
+    padding: 4rem !important;
+}
+
+.info-next {
+    position: relative;
+    top: -12rem;
+}
+
+#Integrate,
+#Invierte,
+#Enviar {
+    background-color: #FF9696;
+    color: black;
+    border-radius: 0px;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+#Integrate:hover,
+#Invierte:hover,
+#Enviar:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+    transition: all 0.5s;
+}
+
+.cards-invierte {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.cards-invierte2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.imagesGroup {
+    transform: scaleY(0.81);
+    margin-top: -50px;
+}
+
+.imageGroup:hover,
+.imagesGroup:hover {
+    opacity: .7;
+}
+
+.proximos .y {
+    height: 400px;
+    margin-top: -5rem;
+}
+
+.modal-body {
+    padding: 0rem !important;
+}
+
+._cUP1np9gMvFQrcPftuf.OGcBAyJGBej5Gnyi9hGA.xahN8AEzyAvQtVj17TPv._Y8HCTxgNkwxXcG_DCXx {
+    margin-top: 0px !important;
+}
+
+.banner-membresia,
+.banner-eventos {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    background-size: cover;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 750px !important;
+    }
+}
+
+@media(max-width:600px) {
+    .xy-img {
+        width: 60%;
+    }
+    .display-3 {
+        font-size: 3.5rem !important;
+    }
+    .co-creamos {
+        padding: 1.5rem !important;
+        margin-top: 2rem;
+    }
+    .cards-invierte {
+        grid-template-columns: auto;
+        padding: 0rem 2rem;
+    }
+    .cards-invierte2,
+    .cards-plataforma {
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+    .balanza {
+        margin: 2rem 0rem;
+        padding: 2rem !important;
+    }
+    .p-left {
+        padding: 2rem !important;
+    }
+    .lista {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .lista-plat {
+        padding: 2rem !important;
+    }
+    .word2 {
+        margin-top: 0rem;
+    }
+    .words-us {
+        padding-top: 0rem;
+    }
+    .col-md-3 {
+        text-align: center;
+    }
+    .word2 {
+        font-size: 30px;
+    }
+    .col-md-6 {
+        padding: 2rem !important;
+    }
+    .about3 {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .cards-people {
+        grid-template-columns: auto auto;
+        margin: 1rem;
+    }
+    .sec-invierte .x,
+    .proximos .x {
+        position: initial;
+        margin-top: 0rem;
+    }
+    .proximos .y {
+        height: auto;
+        margin-top: -4rem;
+    }
+    .info-next {
+        top: -8rem;
+    }
+    .row-prox {
+        flex-direction: column-reverse;
+    }
+    .subcard {
+        margin: 1rem;
+    }
+    .img-manifiesto {
+        width: 70%;
+    }
+    .y {
+        font-size: 120px;
+    }
+    .img-participa {
+        width: 60%;
+    }
+}
+
+@media(min-width:601px) and (max-width:1024px) {
+    .col-md-6 {
+        padding: 2rem !important;
+    }
+    .co-creamos {
+        padding: 2rem !important;
+        margin-top: 2rem !important;
+    }
+    .word2 {
+        font-size: 43px;
+    }
+    .display-3,
+    .display-4 {
+        font-size: 3rem !important;
+    }
+    .m-5 {
+        margin: 1rem 3rem !important;
+    }
+    .p-right {
+        padding-right: 0rem !important;
+    }
+    .cards-people {
+        grid-template-columns: auto auto auto;
+    }
+    .p-left {
+        padding-left: 0rem !important;
+    }
+    .imagesGroup {
+        margin-top: 0rem;
+        transform: none;
+        width: 60%;
+        height: 90%;
+    }
+    .proximos .y {
+        height: auto;
+        margin-top: -4rem;
+        font-size: 100px;
+    }
+}
